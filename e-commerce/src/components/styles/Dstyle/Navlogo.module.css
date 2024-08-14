@@ -1,0 +1,37 @@
+.nav_logo {
+    width: 15%;
+    border-right: solid 0.5px #ece3e3;
+    padding: 5px 0;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.nav_logo_false {
+    width: 3%;
+    border-right: solid 0.5px #ece3e3;
+    padding: 5px 0;
+}
+
+.logo_false {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+}
+.img_false {
+    width:30px;
+    margin-left: 15px;
+}

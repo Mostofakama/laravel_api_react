@@ -1,0 +1,26 @@
+//user signup
+Schema::create('users', function (Blueprint $table) {
+    $table->id();
+    $table->string('name');
+    $table->string('email')->unique();
+    $table->integer('role')->default(0);
+    $table->string('password');
+});
+role === 0 -> user 
+role === 1 -> admin
+
+//profile 
+Schema::create('user_profiles', function (Blueprint $table) {
+    $table->id();
+    $table->foreignId('user_id')->constrained()->onDelete('cascade');
+    $table->string('profile_picture')->nullable();
+    $table->date('date_of_birth')->nullable();
+    $table->text('bio')->nullable();
+    $table->string('phone')->nullable();
+    $table->string('address')->nullable();
+    $table->string('city')->nullable();
+    $table->string('state')->nullable();
+    $table->string('postal_code')->nullable();
+    $table->string('country')->nullable();
+    $table->timestamps();
+});

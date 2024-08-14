@@ -1,0 +1,19 @@
+.From{
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+.From input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,textarea:focus, input[type="color"]:focus, .uneditable-    input:focus {
+    border-color: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+ @media (max-width:780px) {
+    .From{
+        width:80%;
+        
+    }
+ }

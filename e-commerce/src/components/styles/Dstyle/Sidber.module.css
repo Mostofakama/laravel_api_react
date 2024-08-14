@@ -1,0 +1,19 @@
+/* sidbar */
+.sidbar {
+    display: flex;
+}
+/* right sidber */
+.right_sidbar_menu {
+    width: 83.9%;
+    margin-left: 16.1%;
+    padding: 20px;
+}
+.right_sidbar_menu_false {
+    width: 97.9%;
+    margin-left: 2.7%;
+    padding: 25px;
+}
+.content {
+    padding-top: 25px;
+    
+}
